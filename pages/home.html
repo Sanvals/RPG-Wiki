@@ -1,0 +1,34 @@
+{% extends "templates/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section class="area" id="home">
+  Home
+  <button id="update">Button</button>
+  <div id="home-update"></div>
+</section>
+<section class="area hide"  id="players">
+  Players
+  <div id="players-update"></div>
+</section>
+<section class="area hide" id="npcs">
+  NPCs
+  <div id="npcs-update"></div>
+</section>
+<section class="area hide" id="battlemap">
+  Battlemap
+</section>
+<section class="area hide" id="food">
+  Food
+</section>
+<section class="area hide" id="items">
+  Items
+</section>
+<section class="area hide" id="locations">
+  Locations
+</section>
+<section class="area hide" id="quests">
+  Quests
+</section>
+{% endblock %}
